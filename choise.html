@@ -1,0 +1,84 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+
+          <script language="javascript">     <!--弹窗-->
+          function a(){                                  <!--弹窗-->
+          alert("我第一次");                           <!--弹窗-->
+          }                                                   <!--弹窗-->
+          </script>                                      <!--弹窗-->
+                                <title>赵明飞发来的祝福</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("input[type='radio']").click(function(){
+					$("input[type='radio'][name='"+$(this).attr('name')+"']").parent().removeClass("checked")
+					$(this).parent().addClass("checked");
+				});
+			});
+		</script>
+		
+		<style>
+			/*单选*/
+			.radio_label{
+				background: url(radio_bk.png) no-repeat;
+				background-size:1rem 2rem;
+				display: inline-block;
+				line-height: 1rem;
+				height: 1rem;
+				text-indent:1rem;
+				margin-right:2rem;
+			}
+			
+			.checked {
+				background-position: 0  -1rem;
+			}
+			
+			input[type='radio'] {
+				display:none;
+			}
+		</style>
+	</head>
+                
+    <body background='159.jpg'    onload="a();">                       <!--背景加弹窗-->
+<h1>我的第一个标题</h1>                                                          <!--一个标题-->
+<embed  height="50" width="180" src="CRITTY - 轮回之境.mp3" />   <!--背景音乐-->
+                                 <p> <font color='red' size='30'>阿文都哈我分红</font></p>
+                                <p> <font color='blue'>阿文都哈我分红</font></p>
+                                <p> <font color='blue'>阿文，都哈我分红</font></p>
+		<p>请选择你的性别：<p/>
+		<label for="sex-man" class="radio_label checked">
+			<input type="radio" value="1" checked="checked" id="sex-man" name="sex" />
+			男
+		</label>
+		<label for="sex-female" class="radio_label">
+			<input type="radio" value="2" id="sex-female" name="sex" />
+			女
+		</label>
+		<p>是否还单身？</p>
+		<label for="single-yes" class="radio_label">	
+			<input type="radio" value="1" id="single-yes" name="is-single" />
+			是
+		</label>
+
+		<label for="single-no" class="radio_label">	
+			<input type="radio" value="2" id="single-no" name="is-single" />
+			否
+		</label>
+<form name=form action="" method="post">                           <!--提交按钮-->
+<input name=ww type=hidden >                                                 <!--提交按钮-->
+<input type=Button value="提交" onclick="return aaa()">            <!--提交按钮-->
+</form>                                                                                        <!--提交按钮-->
+ <p> <font color='blue'>我分红</font></p>
+<a href=https://user.qzone.qq.com/1335476765>去我的空间</a>    <!--超链接到网页-->
+<img src="123.PNG"width="300" height="100">    <!--加入图片-->
+
+<marquee behavior=scroll>        <!--滚动图片-->
+<img src="123.PNG"width="300" height="100">    <!--加入图片-->
+	
+
+
+
+</body>
+</html> 

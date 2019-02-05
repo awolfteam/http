@@ -1,0 +1,99 @@
+<html>
+<head>
+
+
+<script language="javascript">
+function a(){
+alert("我第一次");
+}
+</script>
+
+
+<div class="login-page" id="div1">
+<!-- 整个页面背景 -->
+<div id="login-back-color"
+style="top: 0px; left: 0px; position: fixed; width: 1360px; height: 610px; opacity: 0.1; z-index: 1000; background-color: rgb(0, 0, 0);">
+</div>
+<div id="div2" class="login-user-box"
+style="position: absolute; width: 400px; height: 320px; left: 483px; top: 40px; z-index: 2000; background-color: #ffffff; border: 5px solid #ddd;">
+
+<div class="login-box-head" id="div3"
+style="background-color: #f7f7f7; height: 35px; border: 1px solid #ddd; border-bottom: 0;">
+<!-- 叉号退出 -->
+<div class="login-exit-box" id="login-exit-box"
+style="width: 16px; height: 25px; width: 25px; position: absolute; right: 0px; top: 0px;">
+<a id="login-exit-icon" class="login-exit-icon"
+style="height: 25px; display: block; background-image: url('/images/login-exit-icon.png'); background-repeat: no-repeat;"></a>
+</div>
+<span class="login-box-title" id="login-box-title"
+style="font-weight: bold; color: #666; padding: 10px 0 13px; margin-left: 29px; display: block;">登录网站帐号</span>
+<form id="login-info-box" class="login-info-box" action="__URL__/login_submit" method="get" autocomplete="off">
+<!-- 提示登录错误 -->
+<div id="login-error-line" class="login-error-line"
+style="height: 15px; line-height: 30px; font-size: 15px; color: #fc4343; margin-left: 50px;">
+请输入账号和密码 ！</div>
+
+<div id="login-box" class="login-box"
+style="margin-top: 25px; margin-left: 30px;">
+<p id="login-count" class="login-count-pw">
+<input type="text" name="user_name" placeholder="手机/邮箱/用户名"
+style="height: 35px; width: 320px; font-size: 16px; text-indent: 40px;  background-repeat: no-repeat;">
+</p>
+<p id="login-pw" class="login-count-pw">
+<input type="password" name="user_password" placeholder="6-16位密码"
+style="height: 35px; width: 320px; font-size: 16px; text-indent: 40px;  background-repeat: no-repeat;">
+</p>
+<p id="auto-login" class="auto-login">
+<input type="checkbox" id="login-check-box" name="memberPass"
+class="auto_login-checkbox" checked="checked"> <label
+for="login-check-box" id="login-check-box-label"
+style="font-size: 13px">下次自动登录</label> <a class="forget-pw"
+href="" target="_blank"
+style="margin-left: 120px; font-size: 13px">忘记密码？</a>
+</p>
+<p>
+<input id="login-submit" type="submit" value="登  录"
+class="login-submit"
+style="height: 35px; width: 330px; background-color: #014ccc; font-size: 20px; color: #fff">
+<br/> <a class="login-submit-link" href="/index.php/home/Index/register"
+target="_blank"
+style="position: absolute; bottom: 20px; right: 60px; font-size: 13px;">立即注册</a>
+</p>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+
+<script>
+window.onresize=window.onload=window.onscroll=function (){
+ center("div1");
+ center("div2");
+ center("div3");
+};
+function center(obj){
+ var div1=document.getElementById(obj);
+ div1.style.top=(document.documentElement.clientHeight-div1.offsetHeight)/2+"px";
+ div1.style.left=(document.documentElement.clientWidth-div1.offsetWidth)/2+"px";
+}
+</script
+
+<title>这是一段简单的代码</title>
+<script language="javascript">
+function aaa(){
+if(document.form.ww.value=="https://wenda.so.com/q/1378281886064136?src=140")
+ {
+ window.alert("谢谢点击");
+}
+}
+</script>
+</head>
+<body onload="a();">
+<form name=form action="" method="post">
+<input name=ww type=hidden >
+<input type=Button value="提交" onclick="return aaa()">
+</form>
+<h3>我很烦。</h3>
+<body>
+</html>
